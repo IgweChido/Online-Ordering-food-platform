@@ -1,0 +1,89 @@
+
+
+/************** head  ***************/
+
+.headback{
+	background-image: url("../images/blogh3.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 500px;
+
+    margin-bottom: 100px;
+
+}
+
+
+.headwords{
+
+	
+
+}
+
+.simmer{
+
+
+	font-family: "Lobster" ;
+	font-size: 90px;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+
+}
+
+.word1{
+	font-family: "Yusei Magic" ;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+
+
+/************** section  ***************/
+
+
+.secback{
+	position: relative;
+	margin-bottom: 100px;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+
+
+
+}
+
+img{
+
+	height: 250px;
+	width: 350px;
+	border-radius: 20px;
+	margin: 5px;
+
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+a:hover img{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+.center {
+
+	color: white;
+	font-family: "Lobster" ;
+	font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+

@@ -1,0 +1,322 @@
+/***************      *************/
+
+div.container-fluid{
+	padding: 0px;
+}
+
+/******** main side **********/
+
+/** head ***/
+
+
+.mainshead{
+	position: relative;
+	background-image: url("../images/caf1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+
+}
+
+.mainshead1{
+	position: absolute;
+	background-color: black;
+	opacity: 0.8;
+	padding: 20px;
+	
+	/*border: 1px solid blue;*/
+	bottom: 0px;
+	
+}
+
+.mainshead2{
+	color: white;
+
+	
+	/*border: 1px solid brown;*/
+}
+
+.mainshead2 a{
+	color: white;
+}
+
+.headname{
+	
+	color: white;
+	font-size: 50px;
+	font-family: Lobster;
+	/*border: 1px solid brown;*/
+}
+
+
+.headdescript{
+	
+	color: white;
+	/*border: 1px solid brown;*/
+}
+
+
+
+
+
+/** nav ***/
+
+.mainsnav{
+	border-bottom: 1px solid black;
+
+	padding: 10px 20px 5px;
+}
+
+.mainsnav a{
+	margin: 5px;
+
+}
+
+
+.mainsdrop{
+	margin: 5px;
+	position: relative;
+	background-color: black;
+	color: white;
+	display: inline-block;
+}
+
+.mainsdropcont{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	min-width: 160px;
+}
+
+.mainsdrop:hover  .mainsdropcont:hover{
+	display: block;
+
+}
+
+
+
+/*********  OVerview  **********/
+
+.overv{
+
+	margin: 20px 50px 50px;
+	
+
+}
+
+.Olocation{
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+	margin: 25px;
+	padding: 20px;
+	width: 500px;
+}
+
+
+.Ocuisines{
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+	margin: 25px;
+	padding: 20px;
+	width: 500px;
+}
+
+.Ofeatures{
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+	margin: 25px;
+	padding: 20px;
+	width: 500px;
+}
+
+
+.Ohours{
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+	margin: 25px;
+	padding: 20px;
+	width: 500px;
+}
+
+
+.Ocosts{
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+	margin: 25px;
+	padding: 20px;
+	width: 500px;
+}
+
+
+/*********  Reviews  **********/
+
+.reviews{
+	background-color: #f2f2f2;
+	margin: 20px 0px 50px;
+	padding: 20px;
+
+}
+
+.Areview{
+	position: relative;
+	display: block;
+	margin: 10px auto;
+	background-color: white;
+	border-radius: 15px;
+	width: 700px;
+	
+	padding: 20px;
+}
+
+.fa-star{
+	width: 15px;
+	color: gold;
+}
+
+
+
+
+
+/*********  Photos  **********/
+.phottodiv{
+
+}
+
+.photto{
+	padding: 5px 15px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	margin: 10px;
+	display: inline-block;
+	background-color: initial;
+}
+
+
+.currentphott{
+	background-color: green;
+	color: white;
+	border: none;
+}
+
+
+
+.photodiv{
+margin: 20px 0px 20px;
+overflow: hidden;
+}
+
+.photodiv img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+
+	-webkit-transform: scale(1);
+	-webkit-transition:  .5s ease-in-out;
+}
+
+
+.photodiv img:hover{
+	
+
+	-webkit-transform: scale(1.2);
+	-webkit-transition:  .5s ease-in-out 0.3s;
+}
+
+
+
+
+/** Food Select **/
+.foodsel{
+	/*border: 1px solid green;*/
+	
+}
+
+.foodsell{
+	padding: 25px 30px;
+}
+
+a.row.foodgan{
+	border: 1px solid #cccccc;
+	color: black;
+	text-decoration: none;
+	margin: 25px 20px 25px;
+
+}
+
+
+a.row.foodgan:hover{
+	border: 1px solid green;
+	
+
+}
+
+div.col-lg-4{
+	padding: 0px;
+}
+
+
+div.col-lg-6.foodescript{
+/*border: 1px solid red;*/
+
+}
+
+div.col-lg-6.foodivimg{
+	/*border: 1px solid blue;*/
+	position: relative;
+	
+	padding: 0px;
+}
+
+
+div.col-lg-6 img{
+width: 100%;
+height: 100%;
+}
+
+div.foodavail{
+	text-align: center;
+	position: absolute;
+	background-color: green;
+	padding: 5px;
+	border-radius: 3px;
+	color: white;
+	width: 100px;
+	right: 10px;
+	bottom: 10px;
+
+}
+
+
+
+
+
+/******** side side **********/
+
+.sideside{
+
+border: 1px solid yellow;
+
+}
+
+.sideside1{
+	
+	
+}
+.ssgal{
+
+}
+
+
+.ssgal img{
+
+width: 100%;
+margin-bottom: 30px;
+}
+
+
+.ssorder{
+	height: 300px;
+	
+	overflow-y: scroll;
+}

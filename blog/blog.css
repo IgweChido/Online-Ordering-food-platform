@@ -1,0 +1,107 @@
+
+/************ Big Section ************/
+.headers{
+	margin: 40px 0 0 0;
+}
+.bigbox{
+	padding: 50px 5px;
+	margin-bottom: 30px;
+	
+}
+
+.bigbox:hover{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+.part2 a:link{
+	text-decoration: none;
+}
+
+.part2 a:hover{
+	text-decoration: none;
+}
+
+
+.bigboximg{
+	width: 500px;
+	height: 350px;
+	margin: 20px ;
+}
+
+.part1{
+	padding: 0px;
+}
+
+.part2{
+	padding: 10px 10px;
+
+}
+
+.artname{
+	color: #5E6B77;
+
+}
+
+.word{
+	color: #5E6B77;
+}
+
+.bhead{
+	font-family: "Yusei Magic" ;
+	color: black;
+}
+
+.contain{
+	font-size: 20px;
+	padding: 30px;
+	font-style: italic;
+	color: black;
+
+}
+
+
+
+/************ small Section ************/
+
+div.col-md-4.smallbox{
+	margin: 40px 0px;
+	padding:  30px 50px;
+	
+
+}
+
+.smallbox:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+
+.smallboximg{
+	width: 100%;
+	height: auto;
+	
+	margin:  auto;
+}
+
+.smallpart{
+
+	margin: 5px 0px;
+}
+
+
+
+.smallpart a:hover{
+	text-decoration: none;
+}
+
+.smallhead{
+	font-family: "Yusei Magic" ;
+	color: black;
+}
+
+.smallcon{
+	font-style: italic;
+	color: black;
+}

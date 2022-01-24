@@ -1,0 +1,230 @@
+
+/*   this are the main styles for the index/home page   */
+
+
+body, html{
+	height: 100%;
+
+}
+
+html,body,h1,h2,h3,h4 {font-family: "Lato", sans-serif}
+
+.simmer{
+
+	padding-top: 50px;
+	font-family: "Lobster" ;
+	font-size: 80px;
+	color: white;
+	/*border: 1px solid pink;*/
+
+	
+}
+.chop{
+
+	font-family: "Yusei Magic" ;
+
+
+	font-size: 50px;
+	color: #ffffb3;
+
+}
+.homeback{
+	position: relative;
+
+	background-image: url("images/gen4.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    height: 500px;
+
+    margin-bottom: 40px;
+    
+
+
+
+}
+
+.logsign{
+	position: absolute;
+	right: 50px;
+	padding: 20px 0px;
+}
+
+.signbtn{
+
+	font-family: "Yusei Magic" ;
+	background-color: #17784F; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 50px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.logbtn{
+
+	font-family: "Yusei Magic" ;
+	background-color: transparent; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 50px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.search{
+
+	margin: auto;
+	
+	padding-left: 20%;
+	padding-top: 3%;
+
+}
+
+.searchbar{
+
+	background-image: url("");
+	background-position: ;
+
+	background-repeat: no-repeat;
+	 width: 70%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 3px solid #17784F; 
+    border-radius: 50px;
+    margin-bottom: 12px; 
+
+
+
+}
+
+.searchbtn{
+
+	background-color: #17784F; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.searchbtn:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+/****************   Section 2***********************/
+
+.sec2img{
+	height: 200px;
+	width: 200px;
+	
+	
+
+
+
+}
+
+.sec2spc{
+	
+
+	padding: 30px 0px;
+	margin-top: 30px;
+	margin-bottom: 70px;
+	/*background-color: yellow;*/
+
+
+}
+
+.sec2head{
+
+	font-family: "Yusei Magic" ;
+	font-size: 35px;
+
+
+}
+
+.sec2link{
+
+	font-size:20px; 
+	font-family: "Fraunces";
+	text-decoration: none; 
+	color: #17784F;
+
+}
+
+
+.sec2link:hover{
+
+	
+	text-decoration: none; 
+	
+}
+
+
+/****************   Section 3***********************/
+
+.sec3backg{
+	background-color: #ffffe6;
+	padding: 100px 50px;
+}
+
+.sec3img{
+
+	width: 650px;
+	height: 450px;
+}
+
+
+/****************   Section 3 & 4 ***********************/
+
+.sechead{
+
+	font-family: "Lobster" ;
+	font-size: 45px;
+
+}
+
+.secword{
+
+	font-family: "Yusei Magic" ;
+	font-size: 25px;
+
+}
+
+
+/****************   Section 4***********************/
+
+.sec4backg{
+background-color:#f2f2f2;
+	padding: 100px 50px;
+}
+
+.sec4img{
+
+	width: 650px;
+	height: 450px;
+	margin-left: 150px;
+	
+}
+
+

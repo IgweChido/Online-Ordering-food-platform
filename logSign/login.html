@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>login</title>
+
+	<meta charset="utf-8">
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <!------------------- Css imported files --------------->
+
+	 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/headerFooter.css">
+	<link rel="stylesheet" type="text/css" href="logsign.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+	<!-- google fonts  -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Yusei Magic' rel='stylesheet'>
+
+	<link href='https://fonts.googleapis.com/css?family=Fraunces' rel='stylesheet'>
+
+	
+
+</head>
+<body>
+
+	<!---------------  login ------------------>
+
+	<!-- Button to open the modal login form -->
+<!-- <button onclick="document.getElementById('id01').style.display='block'">Login</button> -->
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  
+ 
+  <!-- Modal Content -->
+  <form class="form1 animate" action="/action_page.php">
+  	<span onclick="document.getElementById('id01').style.display='none' "class="close" title="Close Modal">&times;</span>
+
+    <div class="name">
+      <p>Simmer</p>
+    </div>
+
+
+
+    <div class="container1">
+    	<div>
+    	<h3>login</h3>
+    	<p>Login to your account.</p>
+      <p>don't have an account? <a href="../signup/signup.html">Sign Up</a></p>
+    </div>
+    <hr>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button class="login" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div> 
+
+
+
+<!------------- javaScript important files ----------------------->
+    
+    <script type="text/javascript" src="logsign.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

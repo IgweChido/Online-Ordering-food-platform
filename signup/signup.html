@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>signUp</title>
+
+	<meta charset="utf-8">
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <!------------------- Css imported files --------------->
+
+	 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/headerFooter.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+	<!-- google fonts  -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Yusei Magic' rel='stylesheet'>
+
+	<link href='https://fonts.googleapis.com/css?family=Fraunces' rel='stylesheet'>
+
+	
+
+</head>
+<body>
+
+
+	<!---------------- Sign Up ------------------->
+
+	<!-- <button onclick="document.getElementById('id01').style.display='block'">Signup</button> -->
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+
+ <form class="form1 animate"action="action_page.php" style="border:1px solid #ccc">
+
+ 	<span onclick="document.getElementById('id01').style.display='none' "class="close" title="Close Modal">&times;</span>
+
+  <div class="container1">
+    <div class="name">
+      <p>Simmer</p>
+    </div>
+    <div>
+    	<h3>Sign up</h3>
+    	<p>Please fill in this form to create an account.</p>
+    </div>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    
+  </div>
+  <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+</form> 
+</div>
+
+
+
+
+
+
+
+<!------------- javaScript important files ----------------------->
+    
+    <script type="text/javascript" src="signup.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

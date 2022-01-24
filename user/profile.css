@@ -1,0 +1,318 @@
+/***************** Profile css ********************/
+
+/************ nav **************/
+
+.navcontainer{
+	
+}
+
+.Acc{
+	margin-top: 100px;
+	text-align: center;
+ 	font-family: "Lobster" ;
+	font-size: 50px;
+}
+
+ul.navpart{
+	margin-bottom: 0px;
+}
+
+.navpart{
+	position: relative;
+	
+	text-align: center;
+	/*border: 1px solid green;*/
+    list-style: none;
+    padding: 0px;
+}
+
+
+.navlist{
+	
+
+	/*border: 1px solid green;*/
+	
+	text-decoration: none;
+	
+	font-size: 20px;
+	margin: 100px 50px 0;
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.current{
+	margin-top: 10px;
+	border-bottom: 3px solid #17784F;
+	width: 150px;
+}
+
+.navlist a{
+	color: grey;
+}
+
+.navlist a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+
+
+
+/************* main  *************/
+
+
+/*****sec 1*****/
+.cont1{
+	/*border: 1px solid blue;*/
+	padding: 80px 100px 100px;
+	background-color: #f2f2f2;
+}
+
+
+
+.sidenav{
+	/*position: relative;*/
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #bfbfbf;
+	border-radius: 10px;
+	margin-left: 30px;
+	background-color: white;
+	
+}
+
+.side{
+	/*border: 1px solid purple;*/
+	
+}
+
+.sidenav a{
+	color: black;
+	font-family: Muli,Merriweather,Georgia,serif;
+}
+
+.pos{
+	
+	position: relative;
+}
+
+.arrow{
+	
+
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+   padding: 5px;
+ 
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+/*****sec 2*****/
+
+
+
+.dets{
+	/*border: 1px solid purple;*/
+
+}
+.details{
+	position: relative;
+	border: 1px solid #bfbfbf;
+	border-radius: 10px;
+	padding: 50px;
+	margin: 20px 30px ;
+	font-family: Muli,Merriweather,Georgia,serif;
+	background-color: white;
+	
+}
+
+.detright{
+	font-family: Muli,Merriweather,Georgia,serif;
+	font-size: 20px;
+}
+
+.right{
+	position: absolute;
+	
+	right: 50px;
+	top: 50px;
+
+}
+
+
+.editpen{
+	display: block;
+	font-size: 15px;
+	font-family: Muli,Merriweather,Georgia,serif;
+}
+
+
+
+
+/*****sec 3(hidden)*****/
+
+ input[type=text] , input[type=address]{
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 10px;
+  display: block;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius:50px;
+  font-family: Muli,Merriweather,Georgia,serif;
+
+
+}
+
+input[type=address]{
+	padding:20px 20px 220px; 
+}
+
+.headd{
+	margin: 25px 0px 25px;
+	font-family: Muli,Merriweather,Georgia,serif;
+
+}
+
+.labls{
+	margin: 25px;
+}
+
+.savechng{
+	margin: 30px 20px;
+ 	 /*border: 1px solid pink;*/
+ 	
+ 	display:block;
+
+
+ 	background-color: #17784F; /* Green */
+    
+    color: white;
+    padding: 8px 32px;
+    /*text-align: center;*/
+    text-decoration: none;
+    
+    font-size: 16px;
+    border-radius: 50px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+
+button {
+ 
+  border: none;
+  
+
+ 
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+/***************** Password css ********************/
+.passback{
+	background-color: #f2f2f2;
+	border: 1px solid transparent;
+
+}
+
+.passback2{
+	background-color: white;
+	padding: 50px;
+	/*border: 1px solid yellow;*/
+	text-align: center;
+	width: 30%;
+	margin: 100px auto;
+}
+
+
+.rpassmail{
+	border: none;
+	border-bottom: 2px solid grey;
+	padding: 30px 15px 5px;
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: #f2f2f2;
+
+
+}
+
+
+.rpassmail:hover{
+	border: none;
+	border-bottom: 2px solid #17784F; 
+}
+
+.rpassmail:focus{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #17784F; 
+}
+
+
+.rpassbtn{
+	width: 100%;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #17784F;
+	color: white;
+	font-size: 16px;
+} 
+
+.paswords{
+	color: grey;
+	font-family: Muli,Merriweather,Georgia,serif;
+}
+
+
+
+
+
+
+
+
+/***************** Payment css ********************/
+
+.paydiv{
+	background-color: #f2f2f2;
+	border: 1px solid transparent;
+}
+
+
+.paydiv2{
+ 
+	padding: 0px;
+	/*border: 1px solid yellow;*/
+	text-align: center;
+	width: 30%;
+	margin: 100px auto;
+}
+
+.paydivh{
+	background-color: white;
+	padding: 50px;
+	border-radius: 5px;
+	margin-bottom: 3px;
+
+}
+
+
+.paydivb{
+	background-color: white;
+	padding: 50px;
+	border-radius: 5px;
+	margin-bottom: 3px;
+}

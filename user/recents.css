@@ -1,0 +1,81 @@
+/***************** Recents css ********************/
+
+/************ Recently viewed **************/
+
+
+.navcontainer{
+	
+}
+
+.Acc{
+	margin-top: 100px;
+	text-align: center;
+ 	font-family: "Lobster" ;
+	font-size: 50px;
+}
+
+
+
+.Rviewback{
+	background-color: #f2f2f2;
+	border: 1px solid transparent;
+}
+
+
+.Rviewback2{
+ 
+	padding: 0px;
+	/*border: 1px solid yellow;*/
+	/*text-align: center;*/
+	width: 50%;
+	margin: 100px auto;
+}
+
+.Rview{
+	background-color: white;
+	padding: 30px;
+	border-radius: 5px;
+	margin-bottom: 50px;
+
+}
+
+
+.Rviewa{
+
+
+/*border: 1px solid blue;*/
+
+}
+
+.Rviewimg{
+	height: 65px;
+	width: 100px;
+	display: inline-block;
+
+}
+
+
+.Rviewhead{
+	margin: 0px 10% ;
+	font-size: 25px;
+	display: inline-block;
+
+}
+
+.Rviewords{
+	margin-top: 30px;
+}
+
+
+
+/************ Recent Orders **************/
+
+
+.Rdelivery{
+	border-radius: 5px;
+	background-color: green;
+	padding:10px;
+	color: white;
+	width: 100px;
+}
+

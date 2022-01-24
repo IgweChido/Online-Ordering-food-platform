@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>simmer.com</title>
+
+	<meta charset="utf-8">
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	 <!------------------- Css imported files --------------->
+
+	 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="CSS/headerFooter.css">
+
+	<!-- <link rel="stylesheet" type="text/css" href="logSign/login.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="signup/signup.css">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+	
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<!-- google fonts  -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Yusei Magic' rel='stylesheet'>
+
+	<link href='https://fonts.googleapis.com/css?family=Fraunces' rel='stylesheet'>
+
+	
+</head>
+<body>
+
+
+
+	<!---------------  login ------------------>
+
+	<!-- Button to open the modal login form -->
+<!-- <button onclick="document.getElementById('id01').style.display='block'">Login</button> -->
+
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  
+ 
+  <!-- Modal Content -->
+  <form class="form1 animate" action="/action_page.php"style="border:1px solid #ccc">
+
+  	<span onclick="document.getElementById('id01').style.display='none' "class="close" title="Close Modal">&times;</span>
+
+    <div class="name">
+      <p>Simmer</p>
+    </div>
+
+
+
+    <div class="container1">
+    	<div>
+    	<h3>login</h3>
+    	<p>Login to your account.</p>
+      <p>don't have an account? <a href="../signup/signup.html">Sign Up</a></p>
+    </div>
+    <hr>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button class="login" type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div> 
+
+
+<!---------------- Sign Up ------------------->
+
+	<!-- <button onclick="document.getElementById('id01').style.display='block'">Signup</button> -->
+
+
+<!-- The Modal -->
+<div id="id02" class="modal">
+
+ <form class="form2 animate"action="action_page.php" style="border:1px solid #ccc">
+
+ 	<span onclick="document.getElementById('id02').style.display='none' "class="close" title="Close Modal">&times;</span>
+
+  <div class="container2">
+    <div class="name">
+      <p>Simmer</p>
+    </div>
+    <div>
+    	<h3>Sign up</h3>
+    	<p>Please fill in this form to create an account.</p>
+    </div>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    
+  </div>
+  <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+</form> 
+</div>
+
+	
+<!-- ---------------   Section 1 -------------------- -->
+	<div class="   homeback">
+
+		<div class="container  ">
+			<!---  This is where the emage and the search area button will be---->
+
+			<div class="logsign">
+				
+				<button onclick="document.getElementById('id01').style.display='block'"type="submit" class="logbtn"><span>login</span></button>
+
+				<button onclick="document.getElementById('id02').style.display='block'"type="submit" class="signbtn"><span>signup</span></button>
+			</div>
+
+		<h1 class="simmer text-center"> Simmer</h1>
+
+		<h3 class="chop text-center">You wan chop? you dey the right place</h3>
+
+
+		<div class="   ">
+			<form class=" search">
+			
+					<input class=" searchbar" type="textt" name="search" placeholder="Search...">
+				
+			
+			<button type="submit" class="searchbtn"><span>Search</span></button>
+		</form>
+	</div>
+		
+		
+	</div>
+
+
+		</div>
+
+
+
+
+
+
+		
+	
+<!-- ---------------   Section 2-------------------- -->
+		<!----------  This is where the sub areas are going to be---------->
+		<div class="container">
+
+
+			<div class=" row text-center">
+
+			<div class="col-md-4 sec2spc">
+
+				<p class="sec2head">Deliver Food</p>
+				<img class="img-responsive sec2img" src="images/deliv2.jpg">
+			<a class="sec2link" href="">
+				
+				<p><b>Dey Earn small small</b></p>
+			</a>
+		</div>
+
+		<div class="col-md-4 sec2spc">
+
+			<p class="sec2head">Become a Partner</p>
+				<img class="img-responsive sec2img" src="images/partner1.jpg">
+			<a class="sec2link" href="">
+				<p><b>Waka come our side</b></p>
+			</a>
+		</div>
+
+		<div class="col-md-4 sec2spc">
+
+			<p class="sec2head">Know About Us</p>
+				<img class="img-responsive sec2img" src="images/about2.jpg">
+			<a class="sec2link" href="About/about.html">
+				<p><b>Sabi us well well</b></p>
+			</a>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+<!-- ---------------   Section 3 -------------------- -->
+
+<div class="sec3backg">
+	<div class="container row">
+		
+		<div class="col-md-8">
+			<!-- picture -->
+
+			<img class="img-responsive sec3img" src="images/caf1.jpg">
+		</div>
+
+		<div class="col-md-4">
+
+			<!-- wordings plus link or button -->
+			<p class="sechead">Find your favourite cafeterias</p>
+
+			<p class="secword">
+				From your neighborhood mama put to the small chops and shawarma you crave, choose from over 20 local and national favorites across Your school Campus and more.   <button onclick="document.location = 'Schools/unilag.html'" type="click" class="searchbtn"><span>Find Cafeterias</span></button>
+			</p>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!-- ---------------   Section 4-------------------- -->
+	<div class="sec4backg">
+	<div class="container row">
+		
+		<div class="col-md-4">
+
+			<!-- wordings plus link or button -->
+
+			<p class="sechead"> Learn about healthy combinations</p>
+
+			<p class="secword">
+				Making healthy food choices can help you develop a healthy eating pattern. A healthy eating pattern helps you improve your overall health.
+				<button onclick="document.location = 'blog/blog.html'"type="click" class="searchbtn"><span>Read Blog</span></button>
+			</p>
+
+			
+			
+		</div>
+
+
+		<div class="col-md-8">
+			<!-- picture -->
+
+			<img class="img-responsive sec4img" src="images/fruits1.jpg">
+		</div>
+	</div>
+</div>	
+
+		
+
+
+	<!-------------------- Footer of the site -------------->
+	<footer  class="foot">
+		<div>
+		<div class="container row">
+			<ul class="col-lg-3  col-md-6 col-sm-6">
+				<li><p class="footHead">Get To Know Us</p></li>
+			<li><a href="About/about.html">Who we Are</a></li>
+			<li><a href="blog/genblog.html">Blog</a></li>
+			<li><a href="">Careers</a></li>
+			<li><a href="">Contact Us</a></li>
+		</ul>
+
+
+		<ul class="col-lg-3 col-md-6 col-sm-6">
+			<li><p class="footHead">DOING BUSINESS</p></li>
+			<li><a href="">Add your Cafeteria</a></li>
+			<li><a href="">Deliver a Simmer</a></li>
+			
+		</ul>
+
+
+		<ul class="col-lg-3 col-md-6 col-sm-6">
+			<li><p class="footHead">GET HELP</p></li>
+			<li><a href="">Read FAQs</a></li>
+			<li><a href="Schools/unilag.html">Cafeterias Near Me</a></li>
+			<li><a href="Schools/unilag.html">View All Cafeterias</a></li>
+			
+		</ul>
+
+		<ul class="col-lg-3 col-md-6 col-sm-6">
+			<li><a href="">Privacy</a></li>
+			<li><a href="">Terms</a></li>
+			<li><a href="">Security</a></li>
+			<li><a href="">Policy</a></li>
+		</ul>
+</div>
+
+
+
+		<div class="social ">
+			<!-- Facebook logo and all -->
+			<a href="#" class="w3-xlarge fa fa-facebook"></a>
+             <a href="#" class="w3-xlarge fa fa-twitter"></a>
+             <a href="#" class="w3-xlarge fa fa-instagram"></a>
+
+		</div>
+
+
+		<div class="footborder">
+			<!-- this is where the fine border line is going to be -->
+		</div>
+
+
+		<div>
+			<!-- Simmers logo -->
+			<p class="simmerfoot">Simmer</p>
+		</div>
+
+
+	
+
+		<div>
+			<!-- Copy right  end of page ishh -->
+
+			<p class="container copyright">
+				By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
+
+				© 2021 Simmer foods
+			</p>
+
+			
+		</div>
+
+
+		</div>
+
+		
+
+
+		
+	</footer>
+
+	<!------------- javaScript important files ----------------------->
+<!-- <script type="text/javascript" src="logSign/login.js"></script> -->
+<script type="text/javascript" src="signup/signup.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+
+
+/**********************  background and header************************/
+
+.unilagbg{
+	background-image: url("../images/unilagbg1.png");
+	height: 300px;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+   
+
+  /*  margin-bottom: 400px;*/
+
+}
+
+
+.name{
+	font-family: "Lobster" ;
+	font-size: 90px;
+	color: white;
+	padding:70px 80px 0px;
+	/*border: 3px solid red;*/
+	margin-bottom: 0px;
+}
+
+.motto{
+	/*border: 3px solid pink;*/
+	color: white;
+	padding: 5px 80px 0px 80px;
+	font-size: 30px;
+	font-family: "Lobster" ;
+}
+
+.unilagsub{
+
+	
+	padding: 20px 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+.head1{
+
+	font-family: "Lobster" ;
+	/*border: 3px solid pink;*/
+	font-size: 30px;
+}
+
+.body1{
+	/*border: 3px solid red;*/
+	font-family: CoreSans,sans-serif;
+	 color: #5E6B77;
+	font-size: 15px;
+	font-weight: 400px;
+	margin-bottom: 0px;
+}
+
+
+/**********************  Small chops section ************************/
+.head2{
+	font-family: "Lobster" ;
+	/*border: 3px solid pink;*/
+	font-size: 30px;
+	padding: 0px 30px;
+	
+
+}
+.secondbg{
+	margin-top: 3px;
+	/*background-color: #f2f2f2;*/
+	margin-bottom: 30px;
+	/*border: 3px solid green;*/
+	padding: 50px 0px;
+}
+
+.smallimg{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	
+	/*border: 1px solid red;*/
+	margin-left: 20px;
+}
+
+.smallspc{
+	margin: 10px 0px;
+
+	/*border: 1px solid blue;*/
+	padding:10px;
+
+}
+
+.smallspc a:hover{
+	text-decoration: none;
+}
+a .smallimg:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+
+.body2{
+	font-family: "Yusei Magic" ;
+	font-size: 20px;
+	color: black;
+	/*border: 1px solid green;*/
+	padding: 5px ;
+	text-align:center;
+
+}
+
+
+/**********************  main section ************************/
+
+.mainbg{
+	background-color: #f2f2f2;
+}
+.mainspc{
+	/*border: 1px solid green;*/
+	padding: 50px 10px;
+}
+
+.mainimg{
+	border-radius: 10px;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+}
+
+.head3{
+	font-family: "Lobster" ;
+	/*border: 3px solid pink;*/
+	font-size: 30px;
+	padding: 0px 30px;
+	color: black;
+	
+}
+
+
+.body3{
+font-family: CoreSans,sans-serif;
+	 color: #5E6B77;
+	 /*border: 3px solid pink;*/
+	font-size: 15px;
+	font-weight: 400px;
+	padding: 0px 30px;
+	margin: 0;
+
+}
+
+.body3i5{
+font-family: CoreSans,sans-serif;
+	 color: #5E6B77;
+	font-size: 15px;
+	font-weight: 400px;
+	padding: 0px 30px;
+	/*border: 3px solid pink;*/
+	margin: 0;
+
+}
+
+/* Zoom In #1 */
+.mainspc a {
+
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	
+}
+.mainspc a:hover img {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.mainspc a:hover {
+	text-decoration: none;
+	bottom: -36px;
+	opacity: 1;
+}

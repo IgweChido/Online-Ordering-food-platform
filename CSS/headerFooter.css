@@ -1,0 +1,160 @@
+
+body{
+	position: relative;
+}
+
+/************ Header styles ***************/
+.navvbarr{
+	border: 2px solid yellow;
+	padding-left: 0px;
+	margin-left: 300px;
+}
+
+.navbar{
+	background-color: #ffffe6 ! important;
+}
+
+.navbar .navbar-brand{
+
+	font-family: "Lobster" ;
+	font-size: 25px;
+	color: black;
+}
+
+.navbar .navbar-nav{
+
+	
+	/*border: 1px solid blue;*/
+	/*padding: 0px 90px;*/
+
+}
+
+.navbar 
+.nav-item
+ a{
+	
+	/*border: 1px solid green;*/
+	/*padding: 0px 200px;*/
+	color: black;
+	font-family: "Yusei Magic" ;
+	font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******** Footer styles ************/
+
+footer ul{
+	list-style: none;
+}
+
+
+
+footer ul a:link{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+footer ul a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+footer ul a:hover{
+	text-decoration: underline;	
+}
+
+
+.foot{
+	background-color: hsl(120, 100%, 5%);
+	height: 500px;
+	padding: 100px;
+	
+}
+
+.footHead{
+	font-size: 20px;
+	font-family: "Yusei Magic";
+	color: white;
+}
+
+.footborder{
+	width: 100%;
+    height: 1px;
+    background-color: white;
+    margin: 6px 4px;
+
+
+}
+
+.simmerfoot{
+	padding-top: 50px;
+	font-family: "Lobster" ;
+	font-size: 20px;
+	color: white;
+}
+
+.copyright{
+	color: white;
+}
+
+
+/* Style all font awesome icons */
+
+
+.social{
+	padding: 10px;
+	margin: 20 0px;
+
+
+}
+.fa {
+
+  
+  font-size: 90px;
+  width: 50px;
+
+  
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+ 
+  color: white;
+}
+
+
+/* insta */
+.fa-instagram {
+  
+  color: white;
+}

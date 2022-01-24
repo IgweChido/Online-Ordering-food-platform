@@ -1,0 +1,215 @@
+
+
+/**************** Head ******************/
+.head{
+
+	margin: 30px;
+	/*border: 1px solid blue;*/
+	margin-bottom: 100px;
+	
+}
+
+.headword{
+	text-align: center;
+	font-family: "Yusei Magic" ;
+	color: black;
+	font-size: 40px;
+
+}
+
+
+.head2{
+	position: relative;
+	margin: 50px 50px 100px 50px;
+	/*border: 1px solid pink;*/
+	
+}
+
+.describe{
+	/*position: absolute;*/
+	float: left;
+	/*border: 1px solid yellow;*/
+}
+
+.simmer{
+	font-family: "Lobster" ;
+	font-size: 20px;
+	 display: inline-block;
+}
+
+.searchbtn{
+
+	background-color: #17784F; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 50px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.searchbtn:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.word{
+	color: #5E6B77;
+}
+
+
+.share{
+	/*position: absolute;*/
+	float: right;
+	/*border: 1px solid green;*/
+}
+
+
+
+.linkin{
+	background-color: #333333;
+	color: white;
+	border-radius: 4px;
+	height: 30px;
+	width: 35px;
+	padding-top: 3px;
+}
+
+
+
+/**************** blog image(section2) ******************/
+
+.blogback{
+
+}
+
+
+.blogbackimg{
+
+	background-image: url("../images/sales.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+   /* background-attachment: fixed;*/
+    background-size: cover;
+
+    height: 400px;
+
+   /* margin-bottom: 50px;*/
+
+    /*border: 1px solid red;*/
+
+    margin: 300px 100px 100px 100px;
+}
+
+
+
+
+/**************** content(section3) ******************/
+
+.contents{
+	text-align: center;
+	/*margin: 50px 400px;*/
+	margin: 50px;
+}
+
+.words{
+	margin: 20px 100px;
+	color: #333;
+	font-family:"McKinsey Sans,Helvetica Neue,Calibri,Corbel,Helvetica,Roboto,Droid,sans-serif ";
+	font-size: 21px;
+
+
+}
+
+.subimg{
+	background-image: url("../images/class.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+   /* background-attachment: fixed;*/
+    background-size: cover;
+
+    height: 400px;
+
+    margin-bottom: 20px;
+
+   /* border: 1px solid red;*/
+
+    margin: 90px 150px;
+}
+
+
+
+/**************** End(section4) ******************/
+
+
+.share1{
+	text-align: center;
+
+	margin: 50px auto;
+	/*border: 1px solid green;*/
+}
+
+
+.relate{
+	background-color: #e6e6e6;
+}
+
+.relte{
+	font-family: "Lobster" ;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+div.col-md-4.smallbox{
+	margin: 40px 0px;
+	padding:  30px 50px;
+	
+
+}
+
+.smallbox:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+
+
+.smallboximg{
+	width: 100%;
+	height: auto;
+	
+	margin:  auto;
+}
+
+.smallpart{
+
+	margin: 5px 0px;
+}
+
+
+
+.smallpart a:hover{
+	text-decoration: none;
+}
+
+.smallhead{
+	font-family: "Yusei Magic" ;
+	color: black;
+}
+
+.smallcon{
+	font-style: italic;
+	color: black;
+}
+
+.artname{
+	color: #5E6B77;
+
+}
